@@ -1,20 +1,3 @@
-markdown: rdiscount #kramdown
-highlighter: pygments
-permalink: /:title/
-paginate: 6
-paginate_path: page/:num
-
-blog:
-    name:  菜溪岩风景区                                    # 博客名称
-    description: 不一样的风景！                            # 博客描述
-    title: 菜溪岩风景区 | www.caixiyan.org                 # 网页标题
-    url: http://www.caixiyan.org                          # 博客地址
-    duoshuo:  鳳舞九天                                     # 多说ID
-    tongji: 28cf5fa48a599e39c5cc760931de942f              # 百度统计ID
-author:
-    name: Way Lau                                         # 作者名称
-    email: 403071884@qq.com                            # 邮箱地址
-    weibo: http://weibo.com/                     # 微博地址
-    github: https://github.com/                     # GitHub地址
-    twitter: https://twitter.com/                #twitter 地址
-    logo:  /res/img/icon.png                              # logo地址
+name: Linear
+description: Linear template for Jekyll
+paginate: 10
