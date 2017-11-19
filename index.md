@@ -1,4 +1,3 @@
-</head>
 <body marginheight="0"><h2>欢迎来菜溪岩风景区</h2>
 <p><img src="http://www.0594.com.cn/uploadfile/2014/1130/20141130093132621.jpg" alt="cmd-markdown-logo">
 </p>
