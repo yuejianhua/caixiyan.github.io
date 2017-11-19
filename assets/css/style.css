@@ -349,6 +349,7 @@
 		.fa-stack-1x{line-height:inherit}
 		.fa-stack-2x{font-size:2em}
 		.fa-inverse{color:#fff}
+                .fa-bus:before{content:"\f207"}
 		.fa-glass:before{content:"\f000"}
 		.fa-music:before{content:"\f001"}
 		.fa-search:before{content:"\f002"}
