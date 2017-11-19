@@ -38,5 +38,5 @@
 仙游县城---书峰乡---社硎乡---九仙溪二级水电站---菜溪岩（路程42公里）
 
 </p>
-<p>Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+<p>Edit By <a href="http://www.caixiyan.org">鳳舞九天</a></p>
 </body></html>
