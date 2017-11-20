@@ -33,7 +33,7 @@
 		<ul class="style">
 		{% for post in site.posts offset: 0 limit: 2 %}
 			<li>
-				<p class="posted">{{ post.date | date_to_string }}  |  (10 )  Comments</p>
+				<p class="posted">{{ post.date | date_to_string }}  |  (10 )  评论</p>
 				<p><a href="{{ site.prefix }}{{ post.url }}">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</a></p>
 			</li>
 		{% endfor %}
