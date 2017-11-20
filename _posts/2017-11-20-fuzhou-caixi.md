@@ -1,6 +1,6 @@
 ---
 title:  福州——仙游“菜溪岩一日游”旅游直通车开通
-featured: images/没有.jpg
+featured: images/fuzhou-caixi.jpeg
 layout: post
 ---
   莆田晚报讯(记者 李金春) 
