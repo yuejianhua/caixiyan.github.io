@@ -1,13 +1,48 @@
-<div id="nav-wrapper">
-	<!-- Nav -->
-	<nav id="nav">
-		<ul>
-			{% assign current = page.url | downcase | split: '/' %}
-			<li><a href="index.html">网站首页</a></li> 
-			<li {% if current[1] == 'blog/index.html' %}class='current'{% endif %}><a href="/blog/index.html">资讯</a></li>
-			<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="/left-sidebar.html">人文景观</a></li>
-			<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="/right-sidebar.html">菜溪特产</a></li>
-			<li {% if current[1] == 'guanyu.html' %}class='current'{% endif %}><a href="/guanyu.html">关于</a></li>
-		</ul>
-	</nav>
+<!-- webkfa.com -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-touch-fullscreen" content="YES" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>css3简单手机页面菜单 - 学到老web开发</title>
+    <link rel="stylesheet" href="http://statics.webkfa.com/css/lz/style.css" media="screen" type="text/css" />
+</head>
+<body>
+  <div class="container">
+  <ul>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown">First Menu <i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown">Second Menu <i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown">Third Menu <i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
 </div>
+<script src="http://statics.webkfa.com/js/lz/index.js"></script>
+
+</body>
+</html>
